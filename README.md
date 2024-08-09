@@ -1,5 +1,6 @@
 ## Prepare
 
 1. In Hugging Face, download `sentence-transformers/multi-qa-MiniLM-L6-cos-v1` and place the `multi-qa-MiniLM-L6-cos-v1` model in the `sentence-transformers` folder;
-2. In Hugging Face, download `meta-llama/Llama-2-7b-chat-hf`,`lmsys/vicuna-7b-v1.5`,`google/flan-t5-small` and place them in the `model` folder. 
+2. In Hugging Face, download `google/pegasus-large` and place the `pegasus-large` model in the `google` folder;
+3. In Hugging Face, download `meta-llama/Llama-2-7b-chat-hf`,`lmsys/vicuna-7b-v1.5`,`google/flan-t5-small` and place them in the `model` folder. 
 
