@@ -14,3 +14,12 @@ pip install evaluate bert-score numpy transformers torch
 ```bash
 python3 run.py
 ```
+
+## To run: Ablation(without reflection:ablation1.py,ablation2.py,ablation3.py;without decomposition:ablation4.py)
+
+```bash
+python3 ablation/ablation1.py
+python3 ablation/ablation2.py
+python3 ablation/ablation3.py
+python3 ablation/ablation4.py
+```
