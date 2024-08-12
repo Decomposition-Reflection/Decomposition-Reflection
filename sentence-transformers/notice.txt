@@ -1,0 +1,1 @@
+Place the `multi-qa-MiniLM-L6-cos-v1` model here.
