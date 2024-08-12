@@ -6,6 +6,11 @@
 4. In Hugging Face, download `FacebookAI/roberta-large` and place the `roberta-large` model in the `facebook` folder. Run the following command to install the required libraries:
 
 ```bash
-pip install evaluate bert-score
+pip install evaluate bert-score numpy transformers torch
 ```
 
+## To run: (model-LLaMA,dataset-ExpertQA,method-Decomposition-Reflection)
+
+```bash
+python3 run.py
+```
