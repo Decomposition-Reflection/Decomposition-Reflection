@@ -9,7 +9,7 @@
 pip install evaluate bert-score numpy transformers torch
 ```
 
-## To run: (model-LLaMA,dataset-ExpertQA,method-Decomposition-Reflection)
+## To run: (model:LLaMA,dataset:ExpertQA,method:Decomposition-Reflection)
 
 ```bash
 python3 run.py
