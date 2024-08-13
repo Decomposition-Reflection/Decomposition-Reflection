@@ -32,7 +32,7 @@ python3 ablation/ablation4.py
 python3 eval.py
 ```
 
-2. The F-C and F-R metrics are obtained by running the following command:
+2. Modified based on the following URL:https://github.com/GAIR-NLP/factool<br>The F-C and F-R metrics are obtained by running the following command:
 
 ```bash
 cd factool/
