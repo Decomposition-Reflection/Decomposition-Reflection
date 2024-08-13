@@ -26,16 +26,18 @@ python3 ablation/ablation4.py
 
 ## Evaluate
 
-1.The ROUGE metric is already calculated during model output, while the SBERT and BERTScore metrics are obtained by running the following command:
+1. The ROUGE metric is already calculated during model output, while the SBERT and BERTScore metrics are obtained by running the following command:
 
-```bash
-python3 eval.py
-```
+    ```bash
+    python3 eval.py
+    ```
 
-2. Modified based on the following URL:https://github.com/GAIR-NLP/factool<br>The F-C and F-R metrics are obtained by running the following command:
+2. Modified based on the following URL: [https://github.com/GAIR-NLP/factool](https://github.com/GAIR-NLP/factool)  
+   The F-C and F-R metrics are obtained by running the following command:
 
-```bash
-cd factool/
-python3 run.py
-python3 computef.py
-```
+    ```bash
+    cd factool/
+    python3 run.py
+    python3 computef.py
+    ```
+
