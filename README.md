@@ -23,3 +23,19 @@ python3 ablation/ablation2.py
 python3 ablation/ablation3.py
 python3 ablation/ablation4.py
 ```
+
+## Evaluate
+
+1.The ROUGE metric is already calculated during model output, while the SBERT and BERTScore metrics are obtained by running the following command:
+
+```bash
+python3 eval.py
+```
+
+2. The F-C and F-R metrics are obtained by running the following command:
+
+```bash
+cd factool/
+python3 run.py
+python3 computef.py
+```
